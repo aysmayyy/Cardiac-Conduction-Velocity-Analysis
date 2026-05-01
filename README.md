@@ -3,6 +3,8 @@
 ## Overview
 This MATLAB repository provides a specialized pipeline for analyzing 3D electroanatomical mapping data. It is designed to process electrode data from cardiac mapping systems to quantify the heart's electrical health and identify potential arrhythmic substrates.
 
+> **Compatibility:** This pipeline is specifically designed for processing 3D electroanatomical mapping data exported from the **Boston Scientific Rhythmia HDx™** system using the **MATLAB Map Data (.mat)** export format.
+
 ## Key Features
 * **3D Spatial Mapping:** Reconstructs the cardiac surface using XYZ coordinates and identifies regional point concentrations.
 * **Automated Tissue Classification:** Categorizes tissue health based on voltage thresholds:
